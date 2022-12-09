@@ -11,7 +11,7 @@ This repository provides the code to:
 
 ## Loading Data
 ### Obtaining the synthetic data
-The 20 samples can be obtained from the CMS site (see citations). These data samples can then be pre-processed to allow them to be read into the database. Each dataset can then be loaded into the tables in the database. The files to setup the database on a linux server are present in the ` scripts_setup ` folder. These can be run by directing the .sql file to server. ` $ mysql < [setup_table_1_scpript.sql] ` There are also bash scripts to load the csv data. ` source ./[load_table_1_csv_data.bash] `
+The 20 samples can be obtained from the CMS site (see citations). These data samples can then be pre-processed to allow them to be read into the database. Each dataset can then be loaded into the tables in the database. The files to setup the database on a linux server are present in the ` scripts_setup ` folder. These can be run by directing the .sql file to server. ` $ mysql < [setup_table_1_scpript.sql] ` There are also bash scripts to load the csv data. ` $ source ./[load_table_1_csv_data.bash] `
 
 There were minor naming issues, likely due to dataset updates, encountered when downloading the dataset and the resulting database counts should be compared against [CMS Synthetic Data Description](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF)
 
